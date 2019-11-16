@@ -1,6 +1,7 @@
 (function ($) {
 
 
+
   $(function () {
     $('.nav a[href^="#"]').on('click', function (e) {
       e.preventDefault();
@@ -9,7 +10,7 @@
 
       $('html, body').animate({
         scrollTop: targetOffset - 100
-      }, 500);
+      }, 300);
     });
 
     $('.sidenav').sidenav();
