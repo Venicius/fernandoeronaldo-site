@@ -181,6 +181,28 @@ header.masthead {
   background-size: cover;
 }
 
+
+#biografia {
+  text-align: center;
+  color: white;
+  background-image: url("../img/Foto-83.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#contato {
+  text-align: center;
+  color: white;
+  background-color: #212529;
+ /*  background-image: url("../img/Foto-34.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; */
+}
+
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
@@ -681,4 +703,16 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: rgb(13, 161, 112);
+}
+.myBox {
+background-color: #41484e;
+border: none;
+padding: 5px;
+width: 100%;
+height: 250px;
+overflow: scroll;
+}
+
+i{
+  font-size: 1.3em;
 }

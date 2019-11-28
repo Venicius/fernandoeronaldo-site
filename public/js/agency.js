@@ -25,13 +25,34 @@
     target: '#mainNav',
     offset: 56
   });
-
+  //pega a largura da resolução da tela
+  var width = screen.width;
+  //pega a altura da resolução da tela
+  var height = screen.height;
   // Collapse Navbar
   var navbarCollapse = function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $(document).ready(function () {
+      });
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $(document).ready(function () {
+      });
+    }
+
+    if (width <= 800 || height <= 600) {
+      $('#imageoption').attr('src', 'img/brand-logo-branco.png');
+    } else {
+      if ($("#mainNav").offset().top > 100) {
+        $(document).ready(function () {
+          $('#imageoption').attr('src', 'img/brand-logo-branco.png');
+        });
+      } else {
+        $(document).ready(function () {
+          $('#imageoption').attr('src', 'img/brand-logo-preto.png');
+        });
+      }
     }
   };
   // Collapse now if page is not at top
