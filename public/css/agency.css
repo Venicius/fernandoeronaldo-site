@@ -245,7 +245,17 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+@media only screen and (max-width: 768px) {
+  header.masthead {
+    background-image: url("../img/Foto-83-mobile.jpg");
+  }
+  #biografia{
+    background-image: url("../img/Foto-9-mobile.jpg");
+  }
+}
+
 @media (min-width: 768px) {
+ 
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
