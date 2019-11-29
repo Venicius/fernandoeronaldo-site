@@ -50,7 +50,7 @@
         });
       } else {
         $(document).ready(function () {
-          $('#imageoption').attr('src', 'img/brand-logo-preto.png');
+          $('#imageoption').attr('src', 'img/brand-logo-branco.png');
         });
       }
     }
