@@ -204,6 +204,17 @@ header.masthead {
   background-size: cover; */
 }
 
+#clipe {
+  text-align: center;
+  color: white;
+  background-color: #212529;
+ /*  background-image: url("../img/Foto-34.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; */
+}
+
 
 #midias {
   text-align: center;
