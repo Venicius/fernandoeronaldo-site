@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/Foto-83.jpg");
+  background-image: url("../img/Foto-83.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -186,7 +186,7 @@ header.masthead {
 #biografia {
   text-align: center;
   color: white;
-  background-image: url("../img/Foto-9.jpg");
+  background-image: url("../img/Foto-9.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -197,7 +197,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-color: #212529;
- /*  background-image: url("../img/Foto-34.jpg");
+ /*  background-image: url("../img/Foto-34.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -208,7 +208,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-color: #212529;
- /*  background-image: url("../img/Foto-34.jpg");
+ /*  background-image: url("../img/Foto-34.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -220,7 +220,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-color: #212529;
-  background-image: url("../img/Foto-30.jpg");
+  background-image: url("../img/Foto-30.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -258,7 +258,7 @@ header.masthead .intro-text .intro-heading {
 
 @media only screen and (max-width: 768px) {
   header.masthead {
-    background-image: url("../img/Foto-83-mobile.jpg");
+    background-image: url("../img/Foto-83-mobile.png");
     top: 0;
   left: 0;
   z-index: 999;
@@ -266,7 +266,7 @@ header.masthead .intro-text .intro-heading {
   height: 100vh;
   }
   #biografia{
-    background-image: url("../img/Foto-9-mobile.jpg");
+    background-image: url("../img/Foto-9-mobile.png");
   /* Optional - fixed on screen */
   top: 0;
   left: 0;
